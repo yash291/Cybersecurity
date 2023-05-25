@@ -1,0 +1,16 @@
+Step 1:
+First, you’ll check that the APT application is installed so that you can use it to manage applications
+
+Step 2:
+sudo apt install suricata -> Installing suricata app
+
+Step 3:
+suricata -> verifying if suricata is installed or not
+
+Step 4:
+sudo apt remove suricata -> remove suricata
+
+Step 5:
+apt list --installed -> List the installed applications
+
+
