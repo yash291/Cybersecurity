@@ -1,0 +1,1 @@
+cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"
