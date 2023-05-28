@@ -1,1 +1,12 @@
-cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"
+cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z" where .leftShift3 is a hidden file
+
+openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+In this instance, the openssl command reverses the encryption of the file with a secure symmetric cipher, as indicated by AES-256-CBC. The -pbkdf2 option is used to add extra security to the key, and -a indicates the desired encoding for the output. The -d indicates decrypting, while -in specifies the input file and -out specifies the output file. The -k specifies the password, which in this example is ettubrute.
+
+The new file Q1.recovered in the directory listing is the decrypted file and contains a message.
+Use the cat command to list the contents of the Q1.recovered file.
+
+ 
+list hidden files, -> ls -a
+decrypt a Caesar cipher, and
+decrypt an encrypted file.
