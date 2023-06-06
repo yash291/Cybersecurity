@@ -1,0 +1,18 @@
+No. : The index number of the packet in this packet capture file
+Time: The timestamp of the packet
+Source: The source IP address
+Destination: The destination IP address
+Protocol: The protocol contained in the packet
+Length: The total length of the packet
+Info: Some infomation about the data in the packet (the payload) as interpreted by Wireshark
+
+ip.addr == 142.250.1.139
+ip.src == 142.250.1.139
+ip.dst == 142.250.1.139
+eth.addr == 42:01:ac:15:e0:02
+udp.port == 53
+tcp.port == 80
+tcp contains "curl"
+
+
+
